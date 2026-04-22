@@ -6,7 +6,7 @@ Preguntas del cuestionario primera parte:
 
 2. ¿Qué operador usaste para determinar si aplica el descuento? ¿Qué tipo de dato devuelve ese operador?
 
--El operador usado para el descuento es el de comparación (>), el cual devuelve un tipo de dato boolean.
+- El operador usado para el descuento es el de comparación (>), el cual devuelve un tipo de dato boolean.
 
 3. ¿En qué situación preferirías usar switch en lugar de una cadena de if-else? ¿Hay algún caso en este ejercicio donde el switch no sería la mejor opción?
 
@@ -25,11 +25,21 @@ conoces el número de elementos?
 
 - El for, permite saber cuantos elementos tiene el array, el while al usar el contador, lo olvida y crea un bucle infinito.
 
+7. ¿Cuántos errores encontraste? Clasifica cada uno: ¿es un error de compilación o un error lógico? ¿Cómo los distingues?
+
+- (3) Errores puntuales encontrados:
+
+  * Tipo de dato incorrecto: Se asignó "5" (texto) a un int debe ser 5 (número).
+
+  * Falta de punto y coma: La línea de double total no termina en  ;.
+
+  * Error de comparación: En el if se usó = (asignación) en lugar de == o simplemente evaluar la variable booleana.
+
 ## COLABORADORES:
 
-Jordan Barrera
-Brayan Castro
-Marcia Baquero
+- Jordan Barrera
+- Brayan Castro
+- Marcia Baquero
 
 
 
